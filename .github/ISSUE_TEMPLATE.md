@@ -1,7 +1,6 @@
 ---
-name: Tracking issue
-about: Use this template for tracking new features.
-title: "[DATE]: [FEATURE NAME]"
-labels: tracking issue, needs triage
-assignees: octocat
+title: Test issue
+assignees: dbzkunalss
+labels: test
 ---
+Someone just pushed, oh no! Here's who did it: {{ payload.sender.login }}.

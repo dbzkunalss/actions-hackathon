@@ -1,8 +1,8 @@
 on: [push]
 name: Create an issue on push
-runs-on: ubuntu-latest
 jobs:
   stuff:
+    runs-on: ubuntu-latest
     steps:
       - uses: JasonEtco/create-an-issue@v2
         env:
